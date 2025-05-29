@@ -19,10 +19,10 @@ body {
   background-color: ${variaveis.preto};
   color: ${variaveis.branco};
 }
-`
 
-export const Container = styled.div`
+.container {
   max-width: 1024px;
   width: 100%;
   margin: 0 auto;
+}
 `
